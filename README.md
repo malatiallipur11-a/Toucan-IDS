@@ -1,9 +1,19 @@
-# Toucan-IDS
+# Toucan-IDS (Forked for Study)
 
-An Intrusion Detection System written in Python.
+## Purpose
+This repository was forked to study the structure and implementation of a full-featured Intrusion Detection System (IDS).  
+It served as a reference point while I developed my own simplified IDS prototype for my MCA program.
 
-Toucan is currently a monitor to defend against man in the middle attacks (Both IPv4/IPv6 attacks) on a wireless network. For IPv4, when an attacker is discovered sending a gratuitous ARPs, Toucan will 'un-poison' the victim and the default gateway by sending out defensive ARPs with their original logged L2 addresses, and will then deauth the attacker off of the network and blacklist their L2 address. Additionally, toucan supports IPv6 spoofing defense by monitoring for gratuitous neighbor advertisements (since there is no ARP in IPv6).
+## My Learning
+- Explored how IDS projects are organized in open-source repositories.  
+- Understood concepts like network monitoring, threat detection, and logging systems.  
+- Practiced GitHub workflows: forking, editing, committing, and documenting.  
+- Compared a full-featured IDS with my own simplified version to understand scalability.  
 
-*I have included an example log file also in which I ran the program on a /24 network and did an arp-scan just to generate some activity
+## Link to My Project
+For my customized IDS project with original contributions, see:  
+👉 [intrusion_detection_tool](https://github.com/malatiallipur11-a/intrusion_detection_tool)
 
-Blue team best team
+## Notes
+This fork is maintained only for study and comparison purposes.  
+All personal contributions and documentation are available in my customized repository linked above.
