@@ -1,3 +1,20 @@
+# Toucan-IDS Script
+# Forked and studied by Malati for MCA cybersecurity project
+# Original author: [Toucan-IDS creator]
+# Purpose: To understand IDS logic and ARP spoofing defense mechanisms
+
+print("Toucan-IDS script studied and modified by Malati")
+
+def log_custom_message():
+    print("Custom IDS logic explored during MCA study")
+
+log_custom_message()
+
+# Original IDS logic below (preserved for study)
+
+
+
+
 #-------------------------
 # Toucan WIDS 
 # Author: Collin Sullivan
@@ -328,3 +345,4 @@ if __name__ == '__main__':
     Thread(target = sniff_ns).start()
 
     Thread(target = sniff_na).start()
+
