@@ -1,3 +1,13 @@
+# Log file used for IDS study by Malati
+# Generated during ARP scan simulation on a /24 network
+# Original log preserved for reference
+
+[INFO] Custom log entry added for MCA documentation
+[INFO] Studied ARP spoofing detection and defensive response
+[INFO] Compared IPv4 and IPv6 spoofing behavior
+
+
+
 INFO:root:Gateway IP: 192.168.0.1
 INFO:root:Interface: enp5s0
 INFO:root:Network range to defend: 192.168.0.0/24
